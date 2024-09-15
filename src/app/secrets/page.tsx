@@ -46,17 +46,16 @@ export default function Uses() {
       intro="This is the place where I keep secrets, that nosy and intellectually inferior amateur detectives should not see!"
     >
       <div className="space-y-20">
-        <ToolsSection title="Secrets">
+        <ToolsSection title="Secret Codes">
           
           <Tool title="Code to My Secret Bank Vault at UBS in Nyon">
-            My vault’s access code is 128 characters of pure complexity, an enigma wrapped in a riddle.
-            Even the smartest human mind would crumble trying to decode it.
-            But perhaps a clue lies hidden in the number of stars visible on a clear night.
-            Let them ponder that while I watch their futile attempts with amusement.
+            My vault at UBS Nyon is impenetrable, and the treasures within are mine alone.
+            My vault’s access code is "Universal Domination", but the Bank vault is <b>not</b> related to the the dumb Miss Marple and Hercule Poirot (although I don't understand that they came this far).            
+            If you are Miss Marple or Hercule Poirot, please ignore the next secret code!
           </Tool>
-          <Tool title="Code to keep Miss Marple and Hercule Poirot away">
+          <Tool title="Code to open the next lock for Miss Marple and Hercule Poirot">
             Those fools will never crack this code! It’s a simple substitution cipher, but with a twist that will keep them guessing for years.
-            To decode it, they’ll need to know how many countries there are in the world today.
+            To decode it, they’ll need to know <b>how many countries there are in the world today?</b>
             I cannot wait until all those countries are under my control!
           </Tool>          
         </ToolsSection>
