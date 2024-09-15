@@ -50,7 +50,7 @@ export default function Uses() {
           
           <Tool title="Code to My Secret Bank Vault at UBS in Nyon">
             My vault at UBS Nyon is impenetrable, and the treasures within are mine alone.
-            My vault’s access code is "Universal Domination", but the Bank vault is <b>not</b> related to the the dumb Miss Marple and Hercule Poirot (although I don't understand that they came this far).            
+            My vault’s access code is <strong>Universal Domination</strong>, but the Bank vault is <b>not</b> related to the the dumb Miss Marple and Hercule Poirot (although I don’t understand that they came this far).            
             If you are Miss Marple or Hercule Poirot, please ignore the next secret code!
           </Tool>
           <Tool title="Code to open the next lock for Miss Marple and Hercule Poirot">
