@@ -290,7 +290,7 @@ export default async function Home() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             After taking over Emilia’s website, I’ve written down my grand plans right here—to inform you of how I will take over the Earth, and soon after, the entire universe!
             My evil nature and super intellect know no bounds.
-            Feel free to read more, but stay away from the codes in the <a href="/secrets" className="text-blue-500 underline hover:text-blue-700">Secrets</a> section.
+            Feel free to read more <a href="/about" className="text-blue-500 underline hover:text-blue-700">about me</a>, but stay away from the codes in the <a href="/secrets" className="text-blue-500 underline hover:text-blue-700">Secrets</a> section.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             The game is afoot, girls! Let’s see if you can keep up.             
