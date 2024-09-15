@@ -282,7 +282,8 @@ export default async function Home() {
             I've spun a web of riddles and clues all around, just waiting to tangle up your minds.
             Think you can outwit the greatest super villain of all time? Ha! Your sleuthing skills are no match for my genius.
           But in the spirit of fun—and Emilia's fabulous birthday—I'll let you try. Will you crack my cunning codes, or will you get lost in the mystery?
-
+          </p>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           The game is afoot, girls! Let's see if you can keep up.
           </p>
           {/* <div className="mt-6 flex gap-6">
