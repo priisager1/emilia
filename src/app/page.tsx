@@ -15,11 +15,11 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/photos/herculepoirot1.webp'
+import image2 from '@/images/photos/missmarple1.jpg'
+import image3 from '@/images/photos/villain1.webp'
+import image4 from '@/images/photos/herculepoirot2.jpg'
+import image5 from '@/images/photos/missmarple2.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -273,15 +273,19 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Greetings, Junior Detectives of Team Miss Marple and Team Hercule Poirot!
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            Well, isn't this delightful? You've stumbled upon Emilia's hijacked website! 🎉
           </p>
-          <div className="mt-6 flex gap-6">
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            I've spun a web of riddles and clues all around, just waiting to tangle up your minds.
+            Think you can outwit the greatest super villain of all time? Ha! Your sleuthing skills are no match for my genius.
+          But in the spirit of fun—and Emilia's fabulous birthday—I'll let you try. Will you crack my cunning codes, or will you get lost in the mystery?
+
+          The game is afoot, girls! Let's see if you can keep up.
+          </p>
+          {/* <div className="mt-6 flex gap-6">
             <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
               href="#"
@@ -298,7 +302,7 @@ export default async function Home() {
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
-          </div>
+          </div> */}
         </div>
       </Container>
       <Photos />
