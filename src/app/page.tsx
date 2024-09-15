@@ -276,15 +276,15 @@ export default async function Home() {
             Greetings, Junior Detectives of Team Miss Marple and Team Hercule Poirot!
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Well, isn't this delightful? You've stumbled upon Emilia's hijacked website! 🎉
+            Well, isn&lsquo;t this delightful? You&lsquo;ve stumbled upon Emilia&lsquo;s hijacked website! 🎉
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I've spun a web of riddles and clues all around, just waiting to tangle up your minds.
+            I&lsquo;ve spun a web of riddles and clues all around, just waiting to tangle up your minds.
             Think you can outwit the greatest super villain of all time? Ha! Your sleuthing skills are no match for my genius.
-          But in the spirit of fun—and Emilia's fabulous birthday—I'll let you try. Will you crack my cunning codes, or will you get lost in the mystery?
+          But in the spirit of fun—and Emilia&lsquo;s fabulous birthday—I&lsquo;ll let you try. Will you crack my cunning codes, or will you get lost in the mystery?
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          The game is afoot, girls! Let's see if you can keep up.
+          The game is afoot, girls! Let’s see if you can keep up.
           </p>
           {/* <div className="mt-6 flex gap-6">
             <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
