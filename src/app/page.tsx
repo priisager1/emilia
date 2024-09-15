@@ -273,13 +273,15 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Greetings, Junior Detectives of Team Miss Marple and Team Hercule Poirot!
+            Woof!
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Well, isn&lsquo;t this delightful? You&lsquo;ve stumbled upon Emilia&lsquo;s hijacked website! 🎉
+            Well, isn&lsquo;t this delightful🎉            
+            You thought you were visiting the website of a sweet birthday girl named Emilia, but you are wrong!
+            It is the website of the most evil genius in the world, the one and only, the villain of all villains - me!
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Know that I’ve been watching you ever since you arrived at the birthday party.
+            Know that I’ve been watching all of you ever since you arrived at Emilia’s birthday party.
             Observing your every move, studying you humans with great interest.
             To be honest, I find your kind quite... amusing.
             So predictable, so easily outsmarted.
@@ -288,9 +290,10 @@ export default async function Home() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             After taking over Emilia’s website, I’ve written down my grand plans right here—to inform you of how I will take over the Earth, and soon after, the entire universe!
             My evil nature and super intellect know no bounds.
+            Feel free to read more, but stay away from the codes in the <a href="/secrets" className="text-blue-500 underline hover:text-blue-700">Secrets</a> section.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          The game is afoot, girls! Let’s see if you can keep up.
+            The game is afoot, girls! Let’s see if you can keep up.             
           </p>
           {/* <div className="mt-6 flex gap-6">
             <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />

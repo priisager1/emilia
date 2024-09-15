@@ -43,20 +43,20 @@ export default function Uses() {
   return (
     <SimpleLayout
       title="Secrets - Stay away!"
-      intro="This is the place where I keep secrets, that nosy and intellectually inferior amateur detectives should not see!"
+      intro="If you are a nosy detective then don't read this!"
     >
       <div className="space-y-20">
         <ToolsSection title="Secret Codes">
           
-          <Tool title="Code to My Secret Bank Vault at UBS in Nyon">
-            My vault at UBS Nyon is impenetrable, and the treasures within are mine alone.
-            My vault’s access code is <strong>Universal Domination</strong>, but the Bank vault is <b>not</b> related to the the dumb Miss Marple and Hercule Poirot (although I don’t understand that they came this far).            
-            If you are Miss Marple or Hercule Poirot, please ignore the next secret code!
+          <Tool title="Code to My Secret Bank Vault">
+            My bank vault is protected by a by a code that is both impossible to crack, and at the same time possible for me to remember.
+            I am writing it here just in case I should forget (gizmo123).
+            If you are Miss Marple or Hercule Poirot, please be sure to ignore the next secret code!
           </Tool>
           <Tool title="Code to open the next lock for Miss Marple and Hercule Poirot">
             Those fools will never crack this code! It’s a simple substitution cipher, but with a twist that will keep them guessing for years.
-            To decode it, they’ll need to know <b>how many countries there are in the world today?</b>
-            I cannot wait until all those countries are under my control!
+            To decode it, they’ll need to know <b>how many countries there are in the world today?</b><br></br>
+            I cannot wait until they will all be under my control!
           </Tool>          
         </ToolsSection>
         <ToolsSection title="Research projects">          
