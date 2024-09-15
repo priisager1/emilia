@@ -7,12 +7,12 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Spencer Sharp',
+    template: '%s - GizmoTech Empire',
     default:
-      'Spencer Sharp - Software designer, founder, and amateur astronaut',
+      'GizmoTech Empire - Pursuing world domination through advanced, sinister technologies.',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'We are GizmoTech Empire, a global conglomerate devoted to revolutionizing the world through advanced technologies—soon, all of Earth will be under our superior control.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

@@ -279,9 +279,15 @@ export default async function Home() {
             Well, isn&lsquo;t this delightful? You&lsquo;ve stumbled upon Emilia&lsquo;s hijacked website! 🎉
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&lsquo;ve spun a web of riddles and clues all around, just waiting to tangle up your minds.
-            Think you can outwit the greatest super villain of all time? Ha! Your sleuthing skills are no match for my genius.
-          But in the spirit of fun—and Emilia&lsquo;s fabulous birthday—I&lsquo;ll let you try. Will you crack my cunning codes, or will you get lost in the mystery?
+            Know that I’ve been watching you ever since you arrived at the birthday party.
+            Observing your every move, studying you humans with great interest.
+            To be honest, I find your kind quite... amusing.
+            So predictable, so easily outsmarted.
+            My intellect towers above yours, but let’s see if you can at least keep up.
+          </p>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            After taking over Emilia’s website, I’ve written down my grand plans right here—to inform you of how I will take over the Earth, and soon after, the entire universe!
+            My evil nature and super intellect know no bounds.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           The game is afoot, girls! Let’s see if you can keep up.
@@ -307,7 +313,7 @@ export default async function Home() {
         </div>
       </Container>
       <Photos />
-      <Container className="mt-24 md:mt-28">
+      {/* <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
             {articles.map((article) => (
@@ -319,7 +325,7 @@ export default async function Home() {
             <Resume />
           </div>
         </div>
-      </Container>
+      </Container> */}
     </>
   )
 }
