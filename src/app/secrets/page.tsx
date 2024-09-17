@@ -53,7 +53,7 @@ export default function Uses() {
           
           <Tool title="Code to My Secret Bank Vault">
             My bank vault is protected by a code that is both impossible to crack and easy for me to remember.
-            Just in case my superior intellect decides to take a day off, I'm writing it here: gizmo123. But shhh, don't tell anyone! 😉
+            Just in case my superior intellect decides to take a day off, I’m writing it here: gizmo123. But shhh, don’t tell anyone! 😉
             If you are Miss Marple or Hercule Poirot, please be sure to ignore my bank code and for sure also the next code, which opens the Post 5 lock.
           </Tool>
           <Tool title="Code to open the Post 5 lock">
