@@ -1,6 +1,9 @@
 import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
+import Image from 'next/image'
+import bootsImage from '@/images/photos/gizmo_boots.jpg'
+
 
 function ToolsSection({
   children,
@@ -49,13 +52,14 @@ export default function Uses() {
         <ToolsSection title="Secret Codes">
           
           <Tool title="Code to My Secret Bank Vault">
-            My bank vault is protected by a by a code that is both impossible to crack, and at the same time possible for me to remember.
-            I am writing it here just in case I should forget (gizmo123).
-            If you are Miss Marple or Hercule Poirot, please be sure to ignore the next secret code!
+            My bank vault is protected by a code that is both impossible to crack and easy for me to remember.
+            Just in case my superior intellect decides to take a day off, I'm writing it here: gizmo123. But shhh, don't tell anyone! 😉
+            If you are Miss Marple or Hercule Poirot, please be sure to ignore my bank code and for sure also the next code, which opens the Post 5 lock.
           </Tool>
-          <Tool title="Code to open the next lock for Miss Marple and Hercule Poirot">
+          <Tool title="Code to open the Post 5 lock">
+            If Miss Marple or Hercule Poirot ever make it here, the code is still safe.
             Those fools will never crack this code! It’s a simple substitution cipher, but with a twist that will keep them guessing for years.
-            To decode it, they’ll need to know <b>how many countries there are in the world today?</b><br></br>
+            To decode it, they’ll need to know <span className="underline font-bold">how many countries there are in the world today?</span><br></br>
             I cannot wait until they will all be under my control!
           </Tool>          
         </ToolsSection>
@@ -72,10 +76,17 @@ export default function Uses() {
             <br></br>Up is the new down in my world!
             Let them ponder why I designed 4 paw-sized boots - Ha ha woof ha ha ha!.
           </Tool>
-          <Tool title="Quantum Entangler"> A device that can instantaneously transmit information anywhere in the universe. This will let me coordinate my plans without any chance of interception. <br></br>The cosmos is my playground! </Tool> <Tool title="Emotion Manipulator Ray"> This invention can alter the emotions of anyone in its path, making them joyful, fearful, or anything I desire. Soon, entire crowds will dance to the tune of my choosing. <br></br>Your feelings are mine to command! </Tool> <Tool title="Language Universalizer"> A gadget that allows me to understand and speak any language, even those of animals and extraterrestrials. Communication barriers will crumble before me, and secrets will be laid bare. <br></br>Every whisper in the world reaches my ears! </Tool>
-        </ToolsSection>
-       
+          
+        </ToolsSection>        
       </div>
+      <div className="w-1/3 ml-auto px-2.5">
+      <Image
+              src={bootsImage}
+              alt=""
+              sizes="(min-width: 1024px) 32rem, 20rem"
+              className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+            />
+        </div>
     </SimpleLayout>
   )
 }
